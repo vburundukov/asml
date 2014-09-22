@@ -1,0 +1,148 @@
+body  {
+	background-color: #FFFFFF;
+	font-family: 'Istok Web', sans-serif;
+	font-size: 0.925em;
+}
+
+.my34{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	vertical-align: top;
+	//top: 0px;
+}
+
+.hitext {
+	overflow: hidden;
+}
+ul {
+	padding: 0px;
+}
+.mypadding{
+	padding-left: 50px;
+
+}
+.Res{
+	margin: 0 auto;
+}
+
+.wrapper {
+	width: 400px;
+	padding: 0px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+
+#header,#StoryDiv,#StoryName{
+	text-align: center;
+	padding: 0;
+}
+
+
+.form {
+	margin: 0 auto;
+}
+
+.error {
+	color: darkred;
+}
+.bwork {
+	width: 11em;
+}
+.datatable {
+	width: 100%;
+	margin: 5px;
+	padding: 5px;
+    border: 4px double darkblue; /* Рамка вокруг таблицы */
+    border-collapse: collapse; /* Отображать только одинарные линии */
+}
+#rightmenu{
+	display: block; /* 765765 */
+	margin: 5px; 
+	padding: 5px;
+	position: relative;
+	text-align: right;
+	//box-shadow: 0px 0px 5px #444444;
+	box-shadow: 0px 0px 1px #444444;
+	//border-radius: 5px;
+	vertical-align: top;
+}
+#leftmenu{
+
+	POSITION: relative;
+	z-index: 2;
+	margin: 5px 0px 0px 5px;
+	padding: 0px 0px 0px 0px;
+	//box-shadow: 1px 1px 1px #444444;
+    box-shadow: 0px 0px 1px #444444;
+}
+#center{
+	//border-radius: 5px;
+	margin: 5px 0px 0px 0px;
+	display: block;
+	POSITION: relative;
+}
+
+
+#footer{
+	width: 400px;
+	padding: 0px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+#loadImg{position:absolute; z-index:1000; display:none}
+
+
+
+.menu span{
+	//cursor: url(img/sniper.cur), pointer;
+	cursor: pointer;
+	padding: 0px;
+	border-bottom: 1px solid #EFEFEF;
+	display: block;
+	color: #4F4F4F;
+	text-decoration: none;
+	background-color: #FFF;
+}
+
+
+.menu span:hover{
+	padding: 0px;
+	border-bottom: 1px solid #4F4F4F;
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #4F4F4F;
+	
+}
+.menu li {
+	padding: 0px;
+	position: relative;
+	list-style: none;
+}
+.menu  li ul{
+	display: none;
+}
+/* всё, что за пределами элемента, скрыто */
+.menu > li:hover, .menu > li > ul > li:hover, .menu > li > ul > li > ul > li:hover {
+display: block;
+overflow: visible;
+}
+.menu > li, .menu > li > ul > li, .menu > li > ul > li > ul > li { 
+overflow: hidden;
+}
+.submenu {
+	box-shadow: 0px 0px 1px #444444;
+}
+.menu li:hover ul {
+	padding: 0px;
+	display: block;
+	position: absolute;
+	left: 100%;
+	top: 0px;
+	width: 178px;
+	z-index: 2;
+}
