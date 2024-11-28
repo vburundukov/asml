@@ -1,11 +1,11 @@
 <?php
 // Подключение к базе данных
 function db_connect(){
-	$host="asuzdev.vivadengi.ru";
+	$host="test.ru";
 	$port="5432";
-	$username="vladimir.burundukov";
+	$username="PV";
 	$password="";
-	$database="asuz";
+	$database="test";
 	$conn_string = "host=$host port=$port dbname=$database user=$username password=$password";
 	//Соединяемся 
 	//echo $conn_string;
@@ -13,9 +13,9 @@ function db_connect(){
 	return $link;
 }
 function db_connect1(){
-	$host="asuztest.vivadengi.ru";
+	$host="test.ru";
 	$port="5432";
-	$username="vladimir.burundukov";
+	$username="PV";
 	$password="";
 	$database="asuz";
 	$conn_string = "host=$host port=$port dbname=$database user=$username password=$password";
